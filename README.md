@@ -9,4 +9,44 @@
 
 ## About Laravel
 
-- [What's new?](/docs/whats-new.md).
+- [What's new?](/docs/whats-new.md)
+
+## Note
+
+- [Installation](https://laravel.com/docs/8.x/installation)
+- [Helpers](https://laravel.com/docs/8.x/helpers)
+- [Collections](https://laravel.com/docs/8.x/collections)
+
+
+## Lesson
+
+1. [Simple CRUD Book Store](/docs/lesson-1.md)
+
+
+## installation
+
+```bash
+# install all php dependency
+$ composer install
+
+# copy env file
+$ cp .env.example .env
+
+# migrate to create table
+$ php artisan migrate
+
+# generate key
+$ php artisan key:generate
+```
+
+<br>
+
+Before you migrate, please set database config in env file.
+
+```sh
+# .env | line 12
+
+DB_DATABASE=demo
+DB_USERNAME=root
+DB_PASSWORD=
+```

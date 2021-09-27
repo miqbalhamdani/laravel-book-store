@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\AuthorController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +18,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/author', [AuthorController::class, 'index']);
+Route::get('/author/create', [AuthorController::class, 'create']);
+Route::post('/author/store', [AuthorController::class, 'store']);
+Route::get('/author/edit/{id}', [AuthorController::class, 'edit']);
+Route::post('/author/update/{id}', [AuthorController::class, 'update']);
+Route::get('/author/delete/{id}', [AuthorController::class, 'destroy']);
