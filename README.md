@@ -20,7 +20,8 @@
 
 ## Lesson
 
-1. [Simple CRUD Book Store](/docs/lesson-1.md)
+1. [Simple CRUD Author](/docs/lesson-1.md)
+2. [CRUD Book](/docs/lesson-2.md)
 
 
 ## installation

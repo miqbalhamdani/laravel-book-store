@@ -1,7 +1,7 @@
 #### Import Boostrap CDN
 
 ```html
-<!-- layout.blade.php -->
+<!-- resources/views/layout.blade.php -->
 
 <!-- line 3 -->
 <link
@@ -136,6 +136,8 @@ public function destroy($id)
     return redirect('/author');
 }
 ```
+
+For `Author::get()`, we use [Laravel Eloquent](https://laravel.com/docs/8.x/eloquent#introduction).
 
 <br>
 
