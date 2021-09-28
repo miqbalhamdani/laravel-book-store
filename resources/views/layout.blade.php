@@ -17,6 +17,8 @@
   <body>
     <div class="container mt-5 d-flex justify-content-center">
       <div class="col-lg-8 col-12">
+        <x-logo />
+
         @yield('content')
       </div>
     </div>

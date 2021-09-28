@@ -20,6 +20,7 @@
 
 ## Lesson
 
+1. [Laravel Template](docs/lesson-0.md)
 1. [Simple CRUD Author](/docs/lesson-1.md)
 2. [CRUD Book](/docs/lesson-2.md)
 

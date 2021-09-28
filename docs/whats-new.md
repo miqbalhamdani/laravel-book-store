@@ -50,7 +50,7 @@ Laravel Sanctum provides a featherweight authentication system for SPAs (single 
 
 **2. Custom Eloquent Casts**
 
-Blade Component Tags & Improvements
+**3. Blade Component Tags & Improvements**
 
 **3. HTTP Client**
 The HTTP client is a wrapper of Guzzle

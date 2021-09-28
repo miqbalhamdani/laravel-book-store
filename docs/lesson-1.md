@@ -1,32 +1,3 @@
-#### Import Boostrap CDN
-
-```html
-<!-- resources/views/layout.blade.php -->
-
-<!-- line 3 -->
-<link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-  crossorigin="anonymous"
->
-
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"
-></script>
-
-<!-- line 24 -->
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"
-></script>
-```
-
-<br>
-
 #### Add model and migration file
 
 ```bash
